@@ -22,7 +22,9 @@ dependencies:
     sdk: flutter
   dio_cache_interceptor: ^3.4.2
   dio: ^5.2.0+1
-  flutter_map: ^6.0.0
+  flutter_map:
+    git:
+      url: https://github.com/Y0ngg4n/flutter_map.git
 
 dev_dependencies:
   flutter_test:
